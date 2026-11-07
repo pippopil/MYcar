@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:padding="24.0dp" android:layout_width="match_parent" android:layout_height="match_parent" android:minHeight="500.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/TextAppearance.AppCompat.Medium" android:textSize="22.0sp" android:textStyle="bold" android:gravity="center_horizontal" android:id="@id/tv_dialog_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dp" android:text="Выполнение скрипта" />
+    <ScrollView android:scrollbarSize="12.0dp" android:scrollbarThumbVertical="@android:color/darker_gray" android:scrollbarAlwaysDrawVerticalTrack="true" android:id="@id/scroll_view_logs" android:background="#f5f5f5" android:padding="12.0dp" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0" android:fadeScrollbars="false">
+        <TextView android:textSize="18.0sp" android:textColor="#212121" android:id="@id/tv_logs" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="" android:fontFamily="monospace" />
+    </ScrollView>
+    <Button android:layout_gravity="center_horizontal" android:id="@id/btn_close" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dp" android:text="Закрыть" />
+</LinearLayout>

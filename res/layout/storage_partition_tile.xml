@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:padding="12.0dp" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:baselineAligned="true">
+        <TextView android:textSize="@dimen/storage_text_title" android:textStyle="normal" android:textColor="?colorOnSurface" android:ellipsize="end" android:id="@id/tv_partition_path" android:layout_width="0.0dp" android:layout_height="wrap_content" android:maxLines="1" android:layout_weight="1.0" android:fontFamily="sans-serif-medium" />
+        <TextView android:textSize="@dimen/storage_text_caption" android:textColor="?storageMuted" android:id="@id/tv_partition_total" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_marginStart="8.0dp" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dp" android:baselineAligned="true">
+        <TextView android:textSize="@dimen/storage_text_number" android:textColor="?colorOnSurface" android:id="@id/tv_partition_free" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:fontFamily="sans-serif-medium" />
+        <TextView android:textSize="@dimen/storage_text_caption" android:textColor="?storageMuted" android:id="@id/tv_partition_free_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="свободно" android:maxLines="1" android:layout_marginStart="8.0dp" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/bar_composition" android:layout_width="match_parent" android:layout_height="10.0dp" android:layout_marginTop="10.0dp" />
+    <LinearLayout android:orientation="vertical" android:id="@id/container_breakdown" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" />
+    <View android:layout_width="match_parent" android:layout_height="0.0dp" android:minHeight="8.0dp" android:layout_weight="1.0" />
+</LinearLayout>

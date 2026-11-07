@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="ctor_share_dropped">
+        <item quantity="one">%d элемент не поддерживается этой версией</item>
+        <item quantity="few">%d элемента не поддерживаются этой версией</item>
+        <item quantity="many">%d элементов не поддерживаются этой версией</item>
+        <item quantity="other">%d элементов не поддерживаются этой версией</item>
+    </plurals>
+    <plurals name="ctor_share_underlays_dropped">
+        <item quantity="one">Удалена %1$d подложка без картинки</item>
+        <item quantity="few">Удалены %1$d подложки без картинки</item>
+        <item quantity="many">Удалено %1$d подложек без картинки</item>
+        <item quantity="other">Удалено %1$d подложек без картинки</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d new notification</item>
+        <item quantity="other">%d new notifications</item>
+    </plurals>
+</resources>

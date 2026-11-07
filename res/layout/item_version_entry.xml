@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingBottom="12.0dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textStyle="bold" android:id="@id/tv_entry_header" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <TextView android:id="@id/tv_entry_changes" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dp" />
+</LinearLayout>

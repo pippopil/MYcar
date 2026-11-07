@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/variant_card_root" android:padding="8.0dp" android:layout_width="0.0dp" android:layout_height="wrap_content" android:elevation="2.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="160.0dp">
+        <ImageView android:id="@id/img_variant_preview" android:background="#e0e0e0" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitCenter" />
+        <ProgressBar android:layout_gravity="center" android:id="@id/progress_variant_preview" android:visibility="gone" android:layout_width="32.0dp" android:layout_height="32.0dp" />
+    </FrameLayout>
+    <TextView android:textSize="16.0sp" android:textStyle="bold" android:ellipsize="end" android:id="@id/tv_variant_name" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" android:maxLines="1" />
+    <TextView android:textSize="12.0sp" android:ellipsize="end" android:id="@id/tv_variant_desc" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dp" android:maxLines="3" />
+    <Button android:textSize="12.0sp" android:id="@id/btn_variant_action" android:layout_width="match_parent" android:layout_height="40.0dp" android:layout_marginTop="8.0dp" />
+</LinearLayout>

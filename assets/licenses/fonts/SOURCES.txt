@@ -1,0 +1,11 @@
+Встроенные шрифты виджетов Tweaker (res/font/) — источники и лицензии.
+
+roboto_bold.ttf            Roboto Bold 2.138               Apache 2.0  https://github.com/googlefonts/roboto-2/releases/download/v2.138/roboto-unhinted.zip (Roboto-Bold.ttf)             Roboto-LICENSE-Apache-2.0.txt
+roboto_regular.ttf         Roboto Regular 2.138            Apache 2.0  https://github.com/googlefonts/roboto-2/releases/download/v2.138/roboto-unhinted.zip (Roboto-Regular.ttf)          Roboto-LICENSE-Apache-2.0.txt
+roboto_condensed_bold.ttf  Roboto Condensed Bold 2.138     Apache 2.0  https://github.com/googlefonts/roboto-2/releases/download/v2.138/roboto-unhinted.zip (RobotoCondensed-Bold.ttf)    Roboto-LICENSE-Apache-2.0.txt
+montserrat_bold.ttf        Montserrat Bold 9.000           SIL OFL 1.1 https://github.com/JulietaUla/Montserrat/blob/555facfb2a18c72c3c0380f0d9c0f060453a9058/fonts/ttf/Montserrat-Bold.ttf  Montserrat-OFL.txt
+oswald_bold.ttf            Oswald Bold 4.103               SIL OFL 1.1 https://github.com/googlefonts/OswaldFont/blob/89795261ac9eeb9aa8cd99f43982c4e4b0e53261/fonts/ttf/Oswald-Bold.ttf  Oswald-OFL.txt
+pt_sans_bold.ttf           PT Sans Bold 2.003W             SIL OFL 1.1 https://github.com/google/fonts/blob/8b0a1d0f5983c89bc2b93f1b5fb55f9e252744b5/ofl/ptsans/PT_Sans-Web-Bold.ttf  PT_Sans-OFL.txt
+dseg7_classic_bold.ttf     DSEG7 Classic Bold 0.46         SIL OFL 1.1 https://github.com/keshikan/DSEG/releases/download/v0.46/fonts-DSEG_v046.zip (DSEG7Classic-Bold.ttf)  DSEG-OFL.txt
+
+Файлы не изменялись (без подмножества и переименования внутри шрифта).

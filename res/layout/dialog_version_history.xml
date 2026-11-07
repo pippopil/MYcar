@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:padding="24.0dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="18.0sp" android:textStyle="bold" android:id="@id/tv_history_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="12.0dp" />
+    <ScrollView android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:id="@id/ll_history_entries" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    </ScrollView>
+</LinearLayout>

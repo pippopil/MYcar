@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:scrollbarStyle="insideOverlay" android:layout_width="440.0dp" android:layout_height="wrap_content" android:fadeScrollbars="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:paddingTop="6.0dp" android:paddingBottom="10.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/tw_menu_tools_section" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:text="Инструменты" style="@style/TweakerMenu.Section" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/tw_menu_tools" android:paddingTop="8.0dp" android:paddingBottom="6.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="16.0dp" android:paddingEnd="16.0dp">
+                <FrameLayout android:id="@id/tw_menu_screenshot" android:contentDescription="Скриншот" android:layout_marginEnd="5.0dp" style="@style/TweakerMenu.Tile">
+                    <ImageView android:src="@drawable/ic_menu_screenshot" style="@style/TweakerMenu.TileIcon" />
+                    <LinearLayout style="@style/TweakerMenu.TileText">
+                        <TextView android:id="@id/tw_menu_screenshot_title" android:text="Скриншот" style="@style/TweakerMenu.TileTitle" />
+                        <TextView android:id="@id/tw_menu_screenshot_hint" android:text="Снимок экрана ГУ" style="@style/TweakerMenu.TileHint" />
+                    </LinearLayout>
+                </FrameLayout>
+                <FrameLayout android:id="@id/tw_menu_record" android:contentDescription="Запись экрана" android:layout_marginStart="5.0dp" style="@style/TweakerMenu.Tile">
+                    <ImageView android:src="@drawable/ic_menu_record" style="@style/TweakerMenu.TileIcon" />
+                    <LinearLayout style="@style/TweakerMenu.TileText">
+                        <TextView android:id="@id/tw_menu_record_title" android:text="Запись экрана" style="@style/TweakerMenu.TileTitle" />
+                        <TextView android:id="@id/tw_menu_record_hint" android:text="Видео с экрана ГУ" style="@style/TweakerMenu.TileHint" />
+                    </LinearLayout>
+                </FrameLayout>
+            </LinearLayout>
+            <LinearLayout android:background="@null" android:focusable="false" android:clickable="false" style="@style/TweakerMenu.Row">
+                <ImageView android:src="@drawable/ic_menu_delay" style="@style/TweakerMenu.RowIcon" />
+                <LinearLayout style="@style/TweakerMenu.RowText">
+                    <TextView android:text="Отсрочка съёмки" style="@style/TweakerMenu.RowTitle" />
+                    <TextView android:text="Отсчёт на кнопке перед кадром" style="@style/TweakerMenu.RowHint" />
+                </LinearLayout>
+                <TextView android:id="@id/tw_menu_delay_minus" android:text="−" android:contentDescription="Уменьшить отсрочку" style="@style/TweakerMenu.Step" />
+                <TextView android:gravity="center" android:id="@id/tw_menu_delay_value" android:layout_width="56.0dp" android:text="3 с" style="@style/TweakerMenu.RowTitle" />
+                <TextView android:id="@id/tw_menu_delay_plus" android:text="+" android:contentDescription="Увеличить отсрочку" style="@style/TweakerMenu.Step" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/tw_menu_touches" style="@style/TweakerMenu.Row">
+                <ImageView android:src="@drawable/ic_menu_touches" style="@style/TweakerMenu.RowIcon" />
+                <LinearLayout style="@style/TweakerMenu.RowText">
+                    <TextView android:text="Касания" style="@style/TweakerMenu.RowTitle" />
+                    <TextView android:text="Точки под пальцем, видны на записи" style="@style/TweakerMenu.RowHint" />
+                </LinearLayout>
+                <com.google.android.material.switchmaterial.SwitchMaterial android:id="@id/tw_menu_touches_switch" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:importantForAccessibility="no" app:thumbTint="@color/tw_menu_switch_thumb" app:trackTint="@color/tw_menu_switch_track" app:useMaterialThemeColors="false" />
+            </LinearLayout>
+            <View style="@style/TweakerMenu.Line" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/tw_menu_auto_connect" style="@style/TweakerMenu.Row">
+            <ImageView android:src="@drawable/ic_menu_autoconnect" style="@style/TweakerMenu.RowIcon" />
+            <LinearLayout style="@style/TweakerMenu.RowText">
+                <TextView android:text="Автоподключение" style="@style/TweakerMenu.RowTitle" />
+                <TextView android:text="К серверу при запуске Tweaker" style="@style/TweakerMenu.RowHint" />
+            </LinearLayout>
+            <com.google.android.material.switchmaterial.SwitchMaterial android:id="@id/tw_menu_auto_connect_switch" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:importantForAccessibility="no" app:thumbTint="@color/tw_menu_switch_thumb" app:trackTint="@color/tw_menu_switch_track" app:useMaterialThemeColors="false" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/tw_menu_check_updates" style="@style/TweakerMenu.Row">
+            <ImageView android:src="@drawable/ic_menu_update" style="@style/TweakerMenu.RowIcon" />
+            <TextView android:layout_width="0.0dp" android:text="Проверить обновления" android:layout_weight="1.0" style="@style/TweakerMenu.RowTitle" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/tw_menu_help" style="@style/TweakerMenu.Row">
+            <ImageView android:src="@drawable/ic_menu_help" style="@style/TweakerMenu.RowIcon" />
+            <TextView android:layout_width="0.0dp" android:text="Справка" android:layout_weight="1.0" style="@style/TweakerMenu.RowTitle" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/tw_menu_about" style="@style/TweakerMenu.Row">
+            <ImageView android:src="@drawable/ic_menu_about" style="@style/TweakerMenu.RowIcon" />
+            <LinearLayout style="@style/TweakerMenu.RowText">
+                <TextView android:text="О программе" style="@style/TweakerMenu.RowTitle" />
+                <TextView android:text="Версия, Client ID, Telegram" style="@style/TweakerMenu.RowHint" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

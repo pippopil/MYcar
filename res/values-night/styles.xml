@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.AppCompat.DayNight" parent="@style/Theme.AppCompat" />
+    <style name="Theme.AppCompat.DayNight.DarkActionBar" parent="@style/Theme.AppCompat" />
+    <style name="Theme.AppCompat.DayNight.Dialog" parent="@style/Theme.AppCompat.Dialog" />
+    <style name="Theme.AppCompat.DayNight.Dialog.Alert" parent="@style/Theme.AppCompat.Dialog.Alert" />
+    <style name="Theme.AppCompat.DayNight.Dialog.MinWidth" parent="@style/Theme.AppCompat.Dialog.MinWidth" />
+    <style name="Theme.AppCompat.DayNight.DialogWhenLarge" parent="@style/Theme.AppCompat.DialogWhenLarge" />
+    <style name="Theme.AppCompat.DayNight.NoActionBar" parent="@style/Theme.AppCompat.NoActionBar" />
+    <style name="Theme.ChanganTweaker" parent="@style/Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="android:statusBarColor">?colorPrimaryVariant</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="colorOutline">#3a4150</item>
+        <item name="colorPrimary">@color/purple_200</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="statusBad">#e06b62</item>
+        <item name="statusOk">#4caf7d</item>
+        <item name="statusWarn">#d9a84e</item>
+        <item name="storageAppData">#a48be8</item>
+        <item name="storageApps">#6ba3e0</item>
+        <item name="storageCache">#57bdb4</item>
+        <item name="storageFree">#2b303a</item>
+        <item name="storageLogs">#bcaaa4</item>
+        <item name="storageMove">#6ba3e0</item>
+        <item name="storageMuted">#8a94a6</item>
+        <item name="storageShared">#d68cbb</item>
+        <item name="storageSystem">#8a94a6</item>
+        <item name="storageTrash">#d9a84e</item>
+        <item name="storageUserFiles">#66bb6a</item>
+    </style>
+    <style name="Theme.MaterialComponents.DayNight" parent="@style/Theme.MaterialComponents" />
+    <style name="Theme.MaterialComponents.DayNight.BottomSheetDialog" parent="@style/Theme.MaterialComponents.BottomSheetDialog" />
+    <style name="Theme.MaterialComponents.DayNight.Bridge" parent="@style/Theme.MaterialComponents.Bridge" />
+    <style name="Theme.MaterialComponents.DayNight.DarkActionBar" parent="@style/Theme.MaterialComponents" />
+    <style name="Theme.MaterialComponents.DayNight.DarkActionBar.Bridge" parent="@style/Theme.MaterialComponents.Bridge" />
+    <style name="Theme.MaterialComponents.DayNight.Dialog" parent="@style/Theme.MaterialComponents.Dialog" />
+    <style name="Theme.MaterialComponents.DayNight.Dialog.Alert" parent="@style/Theme.MaterialComponents.Dialog.Alert" />
+    <style name="Theme.MaterialComponents.DayNight.Dialog.Alert.Bridge" parent="@style/Theme.MaterialComponents.Dialog.Alert.Bridge" />
+    <style name="Theme.MaterialComponents.DayNight.Dialog.Bridge" parent="@style/Theme.MaterialComponents.Dialog.Bridge" />
+    <style name="Theme.MaterialComponents.DayNight.Dialog.FixedSize" parent="@style/Theme.MaterialComponents.Dialog.FixedSize" />
+    <style name="Theme.MaterialComponents.DayNight.Dialog.FixedSize.Bridge" parent="@style/Theme.MaterialComponents.Dialog.FixedSize.Bridge" />
+    <style name="Theme.MaterialComponents.DayNight.Dialog.MinWidth" parent="@style/Theme.MaterialComponents.Dialog.MinWidth" />
+    <style name="Theme.MaterialComponents.DayNight.Dialog.MinWidth.Bridge" parent="@style/Theme.MaterialComponents.Dialog.MinWidth.Bridge" />
+    <style name="Theme.MaterialComponents.DayNight.DialogWhenLarge" parent="@style/Theme.MaterialComponents.DialogWhenLarge" />
+    <style name="Theme.MaterialComponents.DayNight.NoActionBar" parent="@style/Theme.MaterialComponents.NoActionBar" />
+    <style name="Theme.MaterialComponents.DayNight.NoActionBar.Bridge" parent="@style/Theme.MaterialComponents.NoActionBar.Bridge" />
+</resources>

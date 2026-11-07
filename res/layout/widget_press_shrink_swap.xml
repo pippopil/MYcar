@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/w_press_root" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/w_press_hit" android:layout_width="match_parent" android:layout_height="match_parent" android:stateListAnimator="@animator/widget_press_shrink">
+        <ImageView android:id="@id/w_press_image" android:duplicateParentState="true" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitXY" android:contentDescription="@null" android:stateListAnimator="@animator/widget_press_fade_out" />
+        <ImageView android:id="@id/w_press_image_pressed" android:duplicateParentState="true" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitXY" android:contentDescription="@null" android:alpha="0.0" android:stateListAnimator="@animator/widget_press_fade_in" />
+    </FrameLayout>
+    <ImageView android:id="@id/w_press_border" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitXY" android:contentDescription="@null" />
+</FrameLayout>

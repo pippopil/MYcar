@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/widget_reboot_root" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/widget_reboot_state_normal" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/ic_widget_reboot" android:scaleType="fitCenter" android:contentDescription="@string/widget_reboot_title" />
+    <FrameLayout android:id="@id/widget_reboot_hit" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <ImageView android:id="@id/widget_reboot_border" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitXY" android:contentDescription="@null" />
+</FrameLayout>

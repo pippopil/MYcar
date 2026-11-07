@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:padding="8.0dp" android:focusable="false" android:focusableInTouchMode="false" android:descendantFocusability="beforeDescendants" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/item_icon" android:layout_width="40.0dp" android:layout_height="40.0dp" android:scaleType="fitCenter" />
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.5" android:paddingStart="8.0dp" android:paddingEnd="8.0dp">
+            <TextView android:textSize="14.0sp" android:textStyle="bold" android:ellipsize="end" android:id="@id/item_name" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" />
+            <TextView android:textSize="12.0sp" android:textColor="@android:color/darker_gray" android:ellipsize="end" android:id="@id/item_package" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" />
+        </LinearLayout>
+        <CheckBox android:gravity="center" android:id="@id/check_boot" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="0.7" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="0.7">
+            <CheckBox android:gravity="center" android:id="@id/check_wifi" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="9.0sp" android:textColor="#ff1976d2" android:ellipsize="end" android:gravity="center" android:id="@id/tv_wifi_ssid" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" />
+        </LinearLayout>
+        <CheckBox android:gravity="center" android:id="@id/check_bluetooth" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="0.7" />
+        <EditText android:textSize="14.0sp" android:gravity="center" android:id="@id/edit_delay" android:background="@android:drawable/edit_text" android:focusable="true" android:focusableInTouchMode="true" android:clickable="true" android:layout_width="0.0dp" android:layout_height="wrap_content" android:hint="0" android:maxLength="3" android:layout_weight="0.8" android:inputType="number" />
+        <FrameLayout android:id="@id/option1_container" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.2">
+            <CheckBox android:gravity="center_vertical" android:id="@id/check_minimize" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Свернуть" android:layoutDirection="rtl" android:paddingStart="24.0dp" android:paddingEnd="24.0dp" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/volume_controls" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <Spinner android:id="@id/spinner_volume_operation" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" android:spinnerMode="dropdown" />
+                <Spinner android:id="@id/spinner_volume_range" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" android:spinnerMode="dropdown" android:layout_marginStart="4.0dp" />
+            </LinearLayout>
+        </FrameLayout>
+        <ImageButton android:id="@id/btn_delete" android:background="?selectableItemBackground" android:padding="8.0dp" android:layout_width="0.0dp" android:layout_height="wrap_content" android:src="@android:drawable/ic_menu_close_clear_cancel" android:scaleType="fitCenter" android:layout_weight="0.5" android:contentDescription="Удалить" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/media_play_editor" android:paddingBottom="8.0dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="56.0dp" android:paddingEnd="8.0dp">
+        <LinearLayout android:orientation="vertical" android:id="@id/media_entries" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <Button android:id="@id/btn_media_add" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Добавить" />
+        <CheckBox android:id="@id/check_media_interrupt" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Перебивать, если уже что-то играет" />
+    </LinearLayout>
+</LinearLayout>

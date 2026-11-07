@@ -1,0 +1,65 @@
+.class final Lcom/knult/changantweaker/media/MediaHubService$onCreate$8;
+.super Lkotlin/jvm/internal/Lambda;
+.source "SourceFile"
+
+# interfaces
+.implements Lr1/a;
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lkotlin/jvm/internal/Lambda;",
+        "Lr1/a<",
+        "Lcom/knult/changantweaker/media/source/l;",
+        ">;"
+    }
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u0000\u0008\n\u0002\u0018\u0002\n\u0002\u0008\u0003\u0010\u0003\u001a\u0004\u0018\u00010\u0000H\n\u00a2\u0006\u0004\u0008\u0001\u0010\u0002"
+    }
+    d2 = {
+        "Lcom/knult/changantweaker/media/source/l;",
+        "invoke",
+        "()Lcom/knult/changantweaker/media/source/l;",
+        "<anonymous>"
+    }
+    k = 0x3
+    mv = {
+        0x1,
+        0x9,
+        0x0
+    }
+.end annotation
+
+
+# instance fields
+.field public final synthetic a:Lcom/knult/changantweaker/media/MediaHubService;
+
+
+# direct methods
+.method public constructor <init>(Lcom/knult/changantweaker/media/MediaHubService;)V
+    .locals 0
+
+    iput-object p1, p0, Lcom/knult/changantweaker/media/MediaHubService$onCreate$8;->a:Lcom/knult/changantweaker/media/MediaHubService;
+
+    const/4 p1, 0x0
+
+    invoke-direct {p0, p1}, Lkotlin/jvm/internal/Lambda;-><init>(I)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invoke()Ljava/lang/Object;
+    .locals 1
+
+    iget-object v0, p0, Lcom/knult/changantweaker/media/MediaHubService$onCreate$8;->a:Lcom/knult/changantweaker/media/MediaHubService;
+
+    iget-object v0, v0, Lcom/knult/changantweaker/media/MediaHubService;->r:Lcom/knult/changantweaker/media/source/l;
+
+    return-object v0
+.end method

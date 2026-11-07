@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="main_btn_bg">#243034</color>
+    <color name="main_btn_bg_off">#1c2427</color>
+    <color name="main_btn_ink">#e5ecee</color>
+    <color name="main_btn_ink_off">#56646a</color>
+    <color name="main_btn_warn">#ffb74d</color>
+    <color name="tw_menu_accent">#6cc3cc</color>
+    <color name="tw_menu_accent_soft">#1f3a3d</color>
+    <color name="tw_menu_bg">#1b2326</color>
+    <color name="tw_menu_ink">#e5ecee</color>
+    <color name="tw_menu_line">#2b373b</color>
+    <color name="tw_menu_muted">#93a1a6</color>
+    <color name="tw_menu_press">#24302f</color>
+</resources>

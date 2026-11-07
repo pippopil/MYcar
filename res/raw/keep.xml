@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  widget_seat_heat не используется кодом, но хост хранит старые RemoteViews подогрева
+  со ссылкой на него до первой перерисовки фидером; без keep shrinkResources в release
+  вырежет макет. Числовой id ресурса между сборками не гарантирован — совместимость
+  окончательно держится на перерисовке фидером после старта сервиса.
+-->
+<resources xmlns:tools="http://schemas.android.com/tools"
+    tools:keep="@layout/widget_seat_heat" />

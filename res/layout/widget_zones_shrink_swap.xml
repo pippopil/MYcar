@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/w_zp_root" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/w_zp_frame" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitXY" android:contentDescription="@null" />
+    <FrameLayout android:id="@id/w_zp_box_2" android:layout_width="match_parent" android:layout_height="match_parent">
+        <FrameLayout android:id="@id/w_zp_hit_2" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:stateListAnimator="@animator/widget_press_shrink">
+            <ImageView android:id="@id/w_zp_img_2" android:visibility="gone" android:duplicateParentState="true" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitXY" android:contentDescription="@null" android:stateListAnimator="@animator/widget_press_fade_out" />
+            <ImageView android:id="@id/w_zp_imgp_2" android:visibility="gone" android:duplicateParentState="true" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitXY" android:contentDescription="@null" android:alpha="0.0" android:stateListAnimator="@animator/widget_press_fade_in" />
+        </FrameLayout>
+    </FrameLayout>
+    <FrameLayout android:id="@id/w_zp_box_0" android:layout_width="match_parent" android:layout_height="match_parent">
+        <FrameLayout android:id="@id/w_zp_hit_0" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:stateListAnimator="@animator/widget_press_shrink">
+            <ImageView android:id="@id/w_zp_img_0" android:visibility="gone" android:duplicateParentState="true" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitXY" android:contentDescription="@null" android:stateListAnimator="@animator/widget_press_fade_out" />
+            <ImageView android:id="@id/w_zp_imgp_0" android:visibility="gone" android:duplicateParentState="true" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitXY" android:contentDescription="@null" android:alpha="0.0" android:stateListAnimator="@animator/widget_press_fade_in" />
+        </FrameLayout>
+    </FrameLayout>
+    <FrameLayout android:id="@id/w_zp_box_1" android:layout_width="match_parent" android:layout_height="match_parent">
+        <FrameLayout android:id="@id/w_zp_hit_1" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:stateListAnimator="@animator/widget_press_shrink">
+            <ImageView android:id="@id/w_zp_img_1" android:visibility="gone" android:duplicateParentState="true" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitXY" android:contentDescription="@null" android:stateListAnimator="@animator/widget_press_fade_out" />
+            <ImageView android:id="@id/w_zp_imgp_1" android:visibility="gone" android:duplicateParentState="true" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitXY" android:contentDescription="@null" android:alpha="0.0" android:stateListAnimator="@animator/widget_press_fade_in" />
+        </FrameLayout>
+    </FrameLayout>
+    <ImageView android:id="@id/w_zp_border" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitXY" android:contentDescription="@null" />
+</FrameLayout>
